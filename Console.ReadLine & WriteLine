@@ -1,0 +1,20 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+					
+public class Program
+{
+	public static void Main()
+	{  
+	  // console.WriteLine ka use data print krane k liye hota h 
+
+	   Console.WriteLine("Enter Your Nmae");
+	   
+	   //Console.ReadLine ka use User Jo Data FRead kr rha h uske liye hota h 
+
+	   string Name=Console.ReadLine();
+	   
+	   Console.WriteLine("Hello");
+}
+}
