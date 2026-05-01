@@ -1,0 +1,23 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+					
+public class Program
+{
+	public static void Main()
+	{  
+	 // Variable
+	 
+	 //Ek Variable  ek bartan ki trh   h jisme hm kuch bhi store kra skte h 
+	 // Variable k andar store krana h or printr krana h 
+	 string a="Bipasha";
+	 int b=1;
+	 
+	 // y alag alag data type ko bhi jod dega 
+	 Console.WriteLine(a+b);
+	 // Output :Bipasha1
+	 
+	 
+}
+}
