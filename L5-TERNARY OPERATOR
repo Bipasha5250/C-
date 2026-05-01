@@ -1,0 +1,18 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+					
+public class Program
+{
+	public static void Main()
+	{    
+	bool isRaining = true;
+// This sets umbrellaOrNot to "Umbrella" if isRaining is true,
+// and "No Umbrella" if isRaining is false.
+string umbrellaOrNot = isRaining ? "Umbrella" : "No Umbrella";
+
+// "Umbrella"
+Console.WriteLine(umbrellaOrNot);
+}
+}
