@@ -1,0 +1,46 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+					
+public class Program
+{
+	public static void Main()
+	{     String a = "BIpASHA";
+	
+    	//Notation 
+    	Char x =a[0];
+    	Console.WriteLine(x);
+	
+	    Console.WriteLine(a[0]);
+     // STring Functions : String k Characters Array ki trh store hote h 
+     
+     //1) TO ToUpper
+      
+     String b= a.ToUpper();
+      Console.WriteLine(b);
+    
+    //2) IndexOf(): Hmesha String Ka Index 0 se start hoga and if char(Whose Index is Checking )does not exist in the String
+    //then Return krega -1 
+    
+    int c= a.IndexOf('S');
+    Console.WriteLine(c);
+	 
+	 //3)SubString():  Substring k Andar jo bhi position dalege vha se start hogi position or last tak vo pura uthayega Substring ko aage vali ko cut krdega
+	 
+	 String d=a.Substring(2);
+	  Console.WriteLine(d);
+	  //4) Concatenation: By putting + sign 
+	  // 5) ToLower() : Same as  ToUpper() Just Change into LowerCase to String 
+	  //6)Length: Length of the String 
+	   Console.WriteLine(a.Length);
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+}
+}
